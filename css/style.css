@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #262626;
+    overflow: hidden;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 10%;
+    min-height: 20px;
+    color: #D4D4D4;
+    padding: 15px 0px;
+    float: left;
+}
+
+.menu {
+    width: 50%;
+    float: right;
+   
+    
+}
+
+.menu ul{
+}
+
+.menu ul li:first-child{list-style: none;
+}
+.menu ul li{float: left;
+}
+
+.menu ul li a{ 
+    text-decoration: none;
+    color: #D4D4D4;
+    display: block;
+    padding: 25px 80px;
+    transition: 1s;
+}
+
+.menu ul li a:hover{
+    color: #DB646A
+}
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+    min-height: 350px;
+    background-color: #2B2B2B;
+    
+}
+
+
+.slider_caption {
+    text-align: center;
+    width: 40%;
+    min-height: 225px;
+    margin:62px auto; 
+    color: #C0C0C0;
+    font-weight: b
+}
+ 
+.slider_caption h1 {
+    font-size: 50px;
+    margin-top: 55px;
+    
+}
+.slider_caption p {
+    font-size: 25px;
+    margin-top: 32px;
+}
+.slider_caption button {
+    background-color: #FB685E;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 5px;
+    margin-top: 35px;
+    
+    
+}
+
+.slider_caption button a{
+    transition: 1s;
+    text-decoration: none;
+    color: white;
+}
+
+.slider_caption button a:hover{
+    font-weight: bold;
+}
+
+.slider_caption h1 .header_title{
+    font-weight: bold;
+    font-size: 55px;
+    
+}
+
+.red_sign {
+    color: firebrick;
+}
+
+.content {
+    overflow: hidden;
+}
+
+.single_item {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin: 3% 1.6%;
+    color: #616161;
+}
+.img_icon {font-size: 22px;
+}
+
+.single_item h3{
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.single_item p{
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.footer {
+    overflow: hidden;
+    width: 100%;
+    min-height: 210px;
+    background-color: #2B2B2B;
+    text-align: center;
+}
+
+.footer_content {
+    width: 50%;
+    margin: 2% auto;
+    
+    
+}
+.footer_content h1{
+    color: white;
+    padding-bottom: 20px;
+}
+.footer_content p{color: gainsboro}
+
+.social_icon {
+    color: white;
+    margin-top: 20px;
+}
+
+.social_icon .circle_facebook {
+    font-size: 24px;
+    padding: 11px 16px; 
+    background-color: #4D71D1;
+    border-radius: 24px; 
+    margin-right: 1%;
+
+}
+.social_icon .circle_twitter {
+    font-size: 24px;
+    padding: 11px ; 
+    background-color: #4D71D1;
+    border-radius: 24px; 
+    margin-left: 1%;
+}
